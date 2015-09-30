@@ -1,31 +1,26 @@
-Coding Style and Standards
+SQweb - Coding Style and Standards
 ===
 
-#HTML & CSS
+When contributing code, please adhere to the following guidelines. They are reasonable enough to keep our codebase clean and legible, while not requiring you to do anything overly contrived or retarded.
 
-**Recommended Read** :
+One error, or an excessive number of warnings will prevent a build from being deployed to production.
 
-- [Standards for developing flexible, durable, and sustainable HTML and CSS.](http://codeguide.co)
-- [Principles of writing consistent, idiomatic CSS](https://github.com/necolas/idiomatic-css)
-- [CSS Lint is harmful](https://2002-2012.mattwilcox.net/archive/entry/id/1054/)
+##PHP
 
-Use the following starter ruleset with `csslint` :
+Run all code through [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) with the [PSR-2](http://www.php-fig.org/psr/psr-2/) standard.
 
-```
-'ids': false,
-'important': false,
-'box-sizing': false,
-'box-model': false
-```
+WordPress code should at least pass against [WordPress-Core](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards).
 
-#Javascript
+##Javascript
 
 Please follow [this guide](https://github.com/airbnb/javascript/tree/master/es5).
 
 `.jshintrc` and `.jscsrc` files are provided, and may differ from the guide. In that case, they take precedence.
 
-#PHP
+##HTML & CSS
 
-Run all code through [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) with the [PSR-2](http://www.php-fig.org/psr/psr-2/) standard.
+**Recommended Read**:
 
-WordPress code should at least pass against [WordPress-Core](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards).
+- [Standards for developing flexible, durable, and sustainable HTML and CSS.](http://codeguide.co)
+- [Principles of writing consistent, idiomatic CSS](https://github.com/necolas/idiomatic-css)
+- [CSS Lint is harmful](https://2002-2012.mattwilcox.net/archive/entry/id/1054/)

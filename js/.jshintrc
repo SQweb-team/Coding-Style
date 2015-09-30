@@ -1,0 +1,18 @@
+{
+  "browser": true,
+  "jquery": true,
+  "devel": true,
+  "node": true,
+  "singleGroups": true,
+  "shadow": true,
+  "nocomma": true,
+  "futurehostile": true,
+  "curly": true,
+  "eqeqeq": true,
+  "eqnull": true,
+  "forin": true,
+  "nonbsp": true,
+  "nonew": true,
+  "unused": true,
+  "maxcomplexity": 5
+}

@@ -7,9 +7,9 @@ One error, or an excessive number of warnings will prevent a build from being de
 
 ##PHP
 
-Run all code through [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) with the [PSR-2](http://www.php-fig.org/psr/psr-2/) standard.
+Run all code through [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) with the [PSR-2](http://www.php-fig.org/psr/psr-2/) standard. A custom ruleset with extended line lenght is available - that's the one we use for CI. 
 
-WordPress code should at least pass against [WordPress-Core](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards).
+WordPress code must pass [WordPress-Core](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards).
 
 ##Javascript
 

@@ -11,7 +11,7 @@ Run all code through [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSnif
 
 WordPress code must pass [WordPress-Core](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards).
 
-##Javascript
+##JavaScript
 
 Please follow [this guide](https://github.com/airbnb/javascript/tree/master/es5).
 

@@ -29,6 +29,14 @@ Don't add vendor prefixes yourself. That's a monkey job, and they clutter files 
 
 We don't have rules specific to HTML (yet). You're welcome to use the [validator](https://validator.w3.org).
 
+##Ansible
+
+Please use [Ansible-lint}(https://github.com/willthames/ansible-lint), minding [false positives](https://github.com/willthames/ansible-lint#false-positives).
+
+```shell
+pip install ansible-lint
+```
+
 ##Recommended Reads
 
 - [Standards for developing flexible, durable, and sustainable HTML and CSS.](http://codeguide.co)

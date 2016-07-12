@@ -48,7 +48,7 @@ module.exports = {
     "no-missing-eof-newline": true,
     "number-leading-zero": "never",
     "number-no-trailing-zeros": true,
-    "number-zero-length-no-unit": true,
+    "length-zero-no-unit": true,
     "property-no-vendor-prefix": [true, { "severity": "warning" }],
     "root-no-standard-properties": true,
     "declaration-block-no-shorthand-property-overrides": true,

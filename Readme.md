@@ -31,7 +31,7 @@ We don't have rules specific to HTML (yet). You're welcome to use the [validator
 
 ##Ansible
 
-Please use [Ansible-lint}(https://github.com/willthames/ansible-lint), minding [false positives](https://github.com/willthames/ansible-lint#false-positives).
+Please use [Ansible-lint](https://github.com/willthames/ansible-lint), minding [false positives](https://github.com/willthames/ansible-lint#false-positives).
 
 ```shell
 pip install ansible-lint

@@ -23,22 +23,35 @@ You may silence false positives using comments in your code. Please include the 
 
 Run your stylesheets through [stylelint](https://github.com/stylelint/stylelint), using our `stylelint.config.js`.
 
-Don't add vendor prefixes yourself. That's a monkey job, and they clutter files unnecessarily. Instead, use [autoprefixer](https://github.com/postcss/autoprefixer).
+Don't add vendor prefixes yourself. Instead, use [autoprefixer](https://github.com/postcss/autoprefixer).
+
+You may not use SASS, LESS or any other preprocessor. If you need to go beyond vanilla CSS, please use PostCSS.
 
 ##HTML
 
 We don't have rules specific to HTML (yet). You're welcome to use the [validator](https://validator.w3.org).
 
+##Python
+
+Python scripts should follow [PEP 8 guidelines](https://www.python.org/dev/peps/pep-0008/).
+
+##Ruby
+
+Ruby code should be validated with [Rubocop](https://github.com/bbatsov/rubocop) and follow the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
+
 ##Ansible
 
 Please use [Ansible-lint](https://github.com/willthames/ansible-lint), minding [false positives](https://github.com/willthames/ansible-lint#false-positives).
 
-```shell
-pip install ansible-lint
-```
+##Bash
+
+Shell scripts should be validated with [shellcheck](https://github.com/koalaman/shellcheck).
+
+If you have to write involved scripts, consider using [BASH3 Boilerplate](https://github.com/kvz/bash3boilerplate/).
 
 ##Recommended Reads
 
 - [Standards for developing flexible, durable, and sustainable HTML and CSS.](http://codeguide.co)
 - [Principles of writing consistent, idiomatic CSS](https://github.com/necolas/idiomatic-css)
 - [CSS Lint is harmful](https://2002-2012.mattwilcox.net/archive/entry/id/1054/)
+- [On writing real CSS (again)]()https://blog.colepeters.com/on-writing-real-css-again/)

@@ -25,7 +25,7 @@ Run your stylesheets through [stylelint](https://github.com/stylelint/stylelint)
 
 Don't add vendor prefixes yourself. Instead, use [autoprefixer](https://github.com/postcss/autoprefixer).
 
-You may not use SASS, LESS or any other preprocessor. If you need to go beyond vanilla CSS, please use PostCSS.
+You may not use SASS, LESS or any other preprocessor unless otherwise noted. If you need to go beyond vanilla CSS, please use PostCSS.
 
 ##HTML
 
@@ -34,6 +34,8 @@ We don't have rules specific to HTML (yet). You're welcome to use the [validator
 ##Python
 
 Python scripts should follow [PEP 8 guidelines](https://www.python.org/dev/peps/pep-0008/).
+
+Projects with dependencies must include a `requirements.txt` file so that they can be installed via pip. Details [here](https://devcenter.heroku.com/articles/python-pip).
 
 ##Ruby
 

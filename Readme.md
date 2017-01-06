@@ -21,15 +21,35 @@ You may silence false positives using comments in your code. Please include the 
 
 ##CSS
 
-Run your stylesheets through [stylelint](https://github.com/stylelint/stylelint), using our `stylelint.config.js`.
+Do :
 
-Don't add vendor prefixes yourself. Instead, use [autoprefixer](https://github.com/postcss/autoprefixer).
+- Run your stylesheets through [stylelint](https://github.com/stylelint/stylelint), using our `stylelint.config.js`.
+- Favor [PostCSS](http://cssnext.io/) over SASS, LESS, etc. if you need to use a preprocessor.
 
-You may not use SASS, LESS or any other preprocessor unless otherwise noted. If you need to go beyond vanilla CSS, please use PostCSS.
+Don't :
+
+- Add vendor prefixes, unless [autoprefixer](https://github.com/postcss/autoprefixer) can't take care of it.
+- Use CSS shorthand syntax. See : [CSS Shorthand Syntax Considered an Anti-Pattern
+](http://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/)
+
+Recommended Reading :
+
+- [CSS Lint is harmful](https://2002-2012.mattwilcox.net/archive/entry/id/1054/)
+- [On writing real CSS (again)](https://blog.colepeters.com/on-writing-real-css-again/)
+- [Principles of writing consistent, idiomatic CSS](https://github.com/necolas/idiomatic-css)
+
 
 ##HTML
 
-We don't have rules specific to HTML (yet). You're welcome to use the [validator](https://validator.w3.org).
+Do :
+
+- Ommit [optional tags](https://google.github.io/styleguide/htmlcssguide.xml?showone=Optional_Tags#Optional_Tags).
+- Make proper use of form [autofills](https://html.spec.whatwg.org/multipage/forms.html#autofill)
+- Use the [validator](https://validator.github.io/validator/).
+
+Don't :
+
+- Forget [input types](http://blog.teamtreehouse.com/using-html5-input-types-to-enhance-the-mobile-browsing-experience).
 
 ##Python
 
@@ -47,13 +67,11 @@ Please use [Ansible-lint](https://github.com/willthames/ansible-lint), minding [
 
 ##Bash
 
-Shell scripts should be validated with [shellcheck](https://github.com/koalaman/shellcheck).
+Do :
 
-If you have to write involved scripts, consider using [BASH3 Boilerplate](https://github.com/kvz/bash3boilerplate/).
+- Validate shell scripts with [shellcheck](https://github.com/koalaman/shellcheck).
+- Consider using [BASH3 Boilerplate](https://github.com/kvz/bash3boilerplate/), if you have to write involved scripts.
 
 ##Recommended Reads
 
 - [Standards for developing flexible, durable, and sustainable HTML and CSS.](http://codeguide.co)
-- [Principles of writing consistent, idiomatic CSS](https://github.com/necolas/idiomatic-css)
-- [CSS Lint is harmful](https://2002-2012.mattwilcox.net/archive/entry/id/1054/)
-- [On writing real CSS (again)]()https://blog.colepeters.com/on-writing-real-css-again/)

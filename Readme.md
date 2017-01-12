@@ -71,6 +71,7 @@ Do :
 
 - Validate shell scripts with [shellcheck](https://github.com/koalaman/shellcheck).
 - Consider using [BASH3 Boilerplate](https://github.com/kvz/bash3boilerplate/), if you have to write involved scripts.
+- Make sure that scripts [stop on failure](http://stackoverflow.com/a/1379904/3671935), unless continuing is the expected behavior.
 
 ##Recommended Reads
 

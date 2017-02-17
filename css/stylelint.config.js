@@ -1,7 +1,7 @@
 module.exports = {
   "rules": {
     "at-rule-empty-line-before": [ "always", {
-      except: ["blockless-group"],
+      except: ["first-nested"],
     } ],
     "at-rule-no-vendor-prefix": true,
     "block-closing-brace-newline-after": "always",
@@ -50,12 +50,11 @@ module.exports = {
     "number-no-trailing-zeros": true,
     "length-zero-no-unit": true,
     "property-no-vendor-prefix": [true, { "severity": "warning" }],
-    "root-no-standard-properties": true,
     "declaration-block-no-shorthand-property-overrides": true,
-    "rule-nested-empty-line-before": [ "always-multi-line", {
+    "rule-empty-line-before": [ "always-multi-line", {
       except: ["first-nested"],
+      ignore: ["after-comment"],
     } ],
-    "rule-non-nested-empty-line-before": "always-multi-line",
     "declaration-block-trailing-semicolon": "always",
     "selector-combinator-space-after": "always",
     "selector-combinator-space-before": "always",
@@ -63,7 +62,6 @@ module.exports = {
     "selector-list-comma-space-before": "never",
     "selector-no-vendor-prefix": true,
     "selector-pseudo-element-colon-notation": "double",
-    "selector-root-no-composition": true,
     "string-quotes": "single",
     "value-list-comma-newline-after": "always-multi-line",
     "value-list-comma-space-after": "always-single-line",

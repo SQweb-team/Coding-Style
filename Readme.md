@@ -19,6 +19,10 @@ You may silence false positives using comments in your code. Please include the 
 
 **ES6 & TypeScript** : Rules will be introduced once we have production code based off these versions.
 
+Do :
+
+- Avoid the [callback hell](http://callbackhell.com/).
+
 ##CSS
 
 Do :

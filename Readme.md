@@ -49,7 +49,7 @@ Do :
 
 Don't :
 
-- Forget [input types](http://blog.teamtreehouse.com/using-html5-input-types-to-enhance-the-mobile-browsing-experience).
+- Forget [input types](http://blog.teamtreehouse.com/using-html5-input-types-to-enhance-the-mobile-browsing-experience) (also see this [cheat sheet](https://baymard.com/labs/touch-keyboard-types)).
 
 ##Python
 

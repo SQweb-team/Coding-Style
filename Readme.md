@@ -41,6 +41,7 @@ Recommended Reading :
 - [CSS Lint is harmful](https://2002-2012.mattwilcox.net/archive/entry/id/1054/)
 - [On writing real CSS (again)](https://blog.colepeters.com/on-writing-real-css-again/)
 - [Principles of writing consistent, idiomatic CSS](https://github.com/necolas/idiomatic-css)
+- [The vertical-align property](https://bitsofco.de/the-vertical-align-property/)
 
 
 ##HTML
@@ -48,7 +49,7 @@ Recommended Reading :
 Do :
 
 - Ommit [optional tags](https://google.github.io/styleguide/htmlcssguide.xml?showone=Optional_Tags#Optional_Tags).
-- Make proper use of form [autofills](https://html.spec.whatwg.org/multipage/forms.html#autofill)
+- Make proper use of form [autofills](https://html.spec.whatwg.org/multipage/forms.html#autofill) (also see [this guide](https://developers.google.com/web/fundamentals/design-and-ui/input/forms/?hl=en)).
 - Use the [validator](https://validator.github.io/validator/).
 
 Don't :

@@ -1,11 +1,10 @@
-SQweb - Coding Style
-===
+# SQweb - Coding Style
 
 When contributing code, please adhere to the following guidelines. We've laid them out to keep our codebases clean and legible.
 
 Bear in mind that one error, or an excessive number of warnings, will prevent a build from being deployed to production.
 
-##PHP
+## PHP
 
 Run all code through [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) with the [PSR-2](http://www.php-fig.org/psr/psr-2/) standard. A custom ruleset with extended line length is available - that's the one we use for CI.
 
@@ -13,7 +12,7 @@ WordPress code must pass [WordPress-Core](https://github.com/WordPress-Coding-St
 
 You may silence false positives using comments in your code. Please include the reason for the false positive.
 
-##JavaScript
+## JavaScript
 
 **ES5** : Please follow [this guide](https://github.com/airbnb/javascript/tree/master/es5), and use our `.jshintrc` and `.jscsrc` files. They may slightly differ from the guide – in that case, they take precedence.
 
@@ -23,7 +22,7 @@ Do :
 
 - Avoid the [callback hell](http://callbackhell.com/).
 
-##CSS
+## CSS
 
 Do :
 
@@ -33,8 +32,7 @@ Do :
 Don't :
 
 - Add vendor prefixes, unless [autoprefixer](https://github.com/postcss/autoprefixer) can't take care of it.
-- Use CSS shorthand syntax. See : [CSS Shorthand Syntax Considered an Anti-Pattern
-](http://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/)
+- Use CSS shorthand syntax. See : [CSS Shorthand Syntax Considered an Anti-Pattern](http://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/)
 
 Recommended Reading :
 
@@ -43,8 +41,7 @@ Recommended Reading :
 - [Principles of writing consistent, idiomatic CSS](https://github.com/necolas/idiomatic-css)
 - [The vertical-align property](https://bitsofco.de/the-vertical-align-property/)
 
-
-##HTML
+## HTML
 
 Do :
 
@@ -56,21 +53,21 @@ Don't :
 
 - Forget [input types](http://blog.teamtreehouse.com/using-html5-input-types-to-enhance-the-mobile-browsing-experience) (also see this [cheat sheet](https://baymard.com/labs/touch-keyboard-types)).
 
-##Python
+## Python
 
 Python scripts should follow [PEP 8 guidelines](https://www.python.org/dev/peps/pep-0008/).
 
 Projects with dependencies must include a `requirements.txt` file so that they can be installed via pip. Details [here](https://devcenter.heroku.com/articles/python-pip).
 
-##Ruby
+## Ruby
 
 Ruby code should be validated with [Rubocop](https://github.com/bbatsov/rubocop) and follow the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
 
-##Ansible
+## Ansible
 
 Please use [Ansible-lint](https://github.com/willthames/ansible-lint), minding [false positives](https://github.com/willthames/ansible-lint#false-positives).
 
-##Bash
+## Bash
 
 Do :
 
@@ -78,6 +75,6 @@ Do :
 - Consider using [BASH3 Boilerplate](https://github.com/kvz/bash3boilerplate/), if you have to write involved scripts.
 - Make sure that scripts [stop on failure](http://stackoverflow.com/a/1379904/3671935), unless continuing is the expected behavior.
 
-##Recommended Reads
+## Recommended Reads
 
 - [Standards for developing flexible, durable, and sustainable HTML and CSS.](http://codeguide.co)

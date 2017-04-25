@@ -1,5 +1,7 @@
 # SQweb - Coding Style
 
+[![Build Status](https://travis-ci.org/SQweb-team/SQweb-Coding-Style.svg?branch=master)](https://travis-ci.org/SQweb-team/SQweb-Coding-Style)
+
 When contributing code, please adhere to the following guidelines. We've laid them out to keep our codebases clean and legible.
 
 Bear in mind that one error, or an excessive number of warnings, will prevent a build from being deployed to production.
@@ -74,6 +76,14 @@ Do :
 - Validate shell scripts with [shellcheck](https://github.com/koalaman/shellcheck).
 - Consider using [BASH3 Boilerplate](https://github.com/kvz/bash3boilerplate/), if you have to write involved scripts.
 - Make sure that scripts [stop on failure](http://stackoverflow.com/a/1379904/3671935), unless continuing is the expected behavior.
+
+## Markdown
+
+Yes, you should lint your `.md` files. Use [mdl](https://github.com/mivok/markdownlint) with our configuration.
+
+```shell
+mdl *.md --style .mdl.rb
+```
 
 ## Recommended Reads
 

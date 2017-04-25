@@ -7,4 +7,4 @@ before_script:
   - gem install mdl
 
 script:
-  - mdl *.md --style .mdl.rb
+  - mdl *.md --style md/.mdl.rb

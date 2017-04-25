@@ -4,6 +4,9 @@
 # Start by including all rules
 all
 
+# Hard tabs
+exclude_rule 'MD010'
+
 # Line length
 exclude_rule 'MD013'
 

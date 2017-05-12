@@ -9,8 +9,6 @@
         <exclude name="PSR1.Classes.ClassDeclaration"/>
     </rule>
 
-    <!-- <rule ref="Squiz.WhiteSpace.ScopeClosingBrace"/> -->
-
     <rule ref="Generic.Files.LineLength">
         <properties>
             <property name="lineLimit" value="180"/>
